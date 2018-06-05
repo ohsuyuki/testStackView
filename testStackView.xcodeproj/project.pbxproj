@@ -14,6 +14,7 @@
 		1C9CCAD820C65F62001F408A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9CCAD620C65F62001F408A /* LaunchScreen.storyboard */; };
 		1C9CCAE320C65F62001F408A /* testStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CCAE220C65F62001F408A /* testStackViewTests.swift */; };
 		1C9CCAEE20C65F62001F408A /* testStackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CCAED20C65F62001F408A /* testStackViewUITests.swift */; };
+		1C9CCAFC20C69592001F408A /* ExtensionsUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CCAFB20C69592001F408A /* ExtensionsUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C9CCAE920C65F62001F408A /* testStackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testStackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9CCAED20C65F62001F408A /* testStackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testStackViewUITests.swift; sourceTree = "<group>"; };
 		1C9CCAEF20C65F62001F408A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9CCAFB20C69592001F408A /* ExtensionsUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsUITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1C9CCAD420C65F62001F408A /* Assets.xcassets */,
 				1C9CCAD620C65F62001F408A /* LaunchScreen.storyboard */,
 				1C9CCAD920C65F62001F408A /* Info.plist */,
+				1C9CCAFB20C69592001F408A /* ExtensionsUITableViewCell.swift */,
 			);
 			path = testStackView;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9CCAD020C65F60001F408A /* ViewController.swift in Sources */,
+				1C9CCAFC20C69592001F408A /* ExtensionsUITableViewCell.swift in Sources */,
 				1C9CCACE20C65F60001F408A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

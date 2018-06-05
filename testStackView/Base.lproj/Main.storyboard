@@ -107,6 +107,11 @@
                                                         <constraint firstItem="2nt-c3-NR6" firstAttribute="leading" secondItem="KON-24-MfA" secondAttribute="leading" constant="15" id="xaw-1u-WrV"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgroundColor">
+                                                        <color key="value" red="0.0" green="0.80784313730000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IndexerCell" rowHeight="24" id="x0n-tg-Hpb">
                                                 <rect key="frame" x="0.0" y="88" width="375" height="24"/>
